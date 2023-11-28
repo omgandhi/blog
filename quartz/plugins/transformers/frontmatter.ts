@@ -54,7 +54,7 @@ export const FrontMatter: QuartzTransformerPlugin<Partial<Options> | undefined> 
 
             // fill in frontmatter
             file.data.frontmatter = {
-              title: file.stem ? (file.stem === "index" ? "The Efflorescence Project" : file.stem) : "Untitled",
+              title: file.stem ?? "Untitled",
               tags: [],
               ...data,
             }
