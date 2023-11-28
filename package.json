@@ -12,6 +12,7 @@
     "url": "https://github.com/jackyzha0/quartz.git"
   },
   "scripts": {
+    "dev": "npx quartz build --serve",
     "docs": "npx quartz build --serve -d docs",
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
@@ -23,11 +24,10 @@
     "node": ">=18.14"
   },
   "keywords": [
-    "site generator",
-    "ssg",
-    "digital-garden",
-    "markdown",
-    "blog",
+    "Om Gandhi",
+    "omgandhi",
+    "Om's blog",
+    "Om Gandhi's blog",
     "quartz"
   ],
   "bin": {
